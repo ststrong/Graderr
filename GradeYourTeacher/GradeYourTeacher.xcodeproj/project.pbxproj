@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		EA039C201F1564790069F03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA039C1F1F1564790069F03D /* AppDelegate.swift */; };
 		EA039C221F1564790069F03D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA039C211F1564790069F03D /* ViewController.swift */; };
-		EA039C251F1564790069F03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA039C231F1564790069F03D /* Main.storyboard */; };
+		EA039C251F1564790069F03D /* StudentInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA039C231F1564790069F03D /* StudentInterface.storyboard */; };
 		EA039C271F1564790069F03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA039C261F1564790069F03D /* Assets.xcassets */; };
 		EA039C2A1F1564790069F03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA039C281F1564790069F03D /* LaunchScreen.storyboard */; };
 		EAA850C41F16AC890021A048 /* LoginInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA850C31F16AC890021A048 /* LoginInterface.storyboard */; };
+		EAA850C61F16ACEF0021A048 /* TeacherInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA850C51F16ACEF0021A048 /* TeacherInterface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA039C1C1F1564790069F03D /* GradeYourTeacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradeYourTeacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA039C1F1F1564790069F03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA039C211F1564790069F03D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA039C241F1564790069F03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA039C241F1564790069F03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StudentInterface.storyboard; sourceTree = "<group>"; };
 		EA039C261F1564790069F03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA039C291F1564790069F03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA039C2B1F1564790069F03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAA850C31F16AC890021A048 /* LoginInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginInterface.storyboard; sourceTree = "<group>"; };
+		EAA850C51F16ACEF0021A048 /* TeacherInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TeacherInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 		EA039C321F167B910069F03D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				EA039C231F1564790069F03D /* Main.storyboard */,
+				EA039C231F1564790069F03D /* StudentInterface.storyboard */,
+				EAA850C51F16ACEF0021A048 /* TeacherInterface.storyboard */,
 				EA039C281F1564790069F03D /* LaunchScreen.storyboard */,
 				EAA850C31F16AC890021A048 /* LoginInterface.storyboard */,
 			);
@@ -143,8 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA039C2A1F1564790069F03D /* LaunchScreen.storyboard in Resources */,
+				EAA850C61F16ACEF0021A048 /* TeacherInterface.storyboard in Resources */,
 				EA039C271F1564790069F03D /* Assets.xcassets in Resources */,
-				EA039C251F1564790069F03D /* Main.storyboard in Resources */,
+				EA039C251F1564790069F03D /* StudentInterface.storyboard in Resources */,
 				EAA850C41F16AC890021A048 /* LoginInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,12 +168,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA039C231F1564790069F03D /* Main.storyboard */ = {
+		EA039C231F1564790069F03D /* StudentInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EA039C241F1564790069F03D /* Base */,
 			);
-			name = Main.storyboard;
+			name = StudentInterface.storyboard;
 			sourceTree = "<group>";
 		};
 		EA039C281F1564790069F03D /* LaunchScreen.storyboard */ = {
