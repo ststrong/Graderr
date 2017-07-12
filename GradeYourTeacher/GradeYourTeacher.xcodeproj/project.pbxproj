@@ -12,6 +12,7 @@
 		EA039C251F1564790069F03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA039C231F1564790069F03D /* Main.storyboard */; };
 		EA039C271F1564790069F03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA039C261F1564790069F03D /* Assets.xcassets */; };
 		EA039C2A1F1564790069F03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA039C281F1564790069F03D /* LaunchScreen.storyboard */; };
+		EAA850C41F16AC890021A048 /* LoginInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA850C31F16AC890021A048 /* LoginInterface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EA039C261F1564790069F03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA039C291F1564790069F03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA039C2B1F1564790069F03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA850C31F16AC890021A048 /* LoginInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				EA039C231F1564790069F03D /* Main.storyboard */,
 				EA039C281F1564790069F03D /* LaunchScreen.storyboard */,
+				EAA850C31F16AC890021A048 /* LoginInterface.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				EA039C2A1F1564790069F03D /* LaunchScreen.storyboard in Resources */,
 				EA039C271F1564790069F03D /* Assets.xcassets in Resources */,
 				EA039C251F1564790069F03D /* Main.storyboard in Resources */,
+				EAA850C41F16AC890021A048 /* LoginInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
