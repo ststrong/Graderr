@@ -140,8 +140,7 @@
 				TargetAttributes = {
 					EA039C1B1F1564790069F03D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 96QE7H4LVL;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -310,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 96QE7H4LVL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GradeYourTeacher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ststrong.GradeYourTeacher;
@@ -326,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 96QE7H4LVL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GradeYourTeacher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ststrong.GradeYourTeacher;
